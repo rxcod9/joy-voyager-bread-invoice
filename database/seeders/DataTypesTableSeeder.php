@@ -18,7 +18,7 @@ class DataTypesTableSeeder extends Seeder
                 'name'                  => 'invoices',
                 'display_name_singular' => __('joy-voyager-bread-invoice::seeders.data_types.invoice.singular'),
                 'display_name_plural'   => __('joy-voyager-bread-invoice::seeders.data_types.invoice.plural'),
-                'icon'                  => 'voyager-bread',
+                'icon'                  => 'voyager-bread voyager-bread-invoice voyager-receipt',
                 'model_name'            => 'Joy\\VoyagerBreadInvoice\\Models\\Invoice',
                 // 'policy_name'           => 'Joy\\VoyagerBreadInvoice\\Policies\\InvoicePolicy',
                 // 'controller'            => 'Joy\\VoyagerBreadInvoice\\Http\\Controllers\\VoyagerBreadInvoiceController',
